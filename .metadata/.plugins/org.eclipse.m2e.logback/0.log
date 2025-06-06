@@ -3856,3 +3856,6 @@ org.eclipse.core.runtime.CoreException: 起動構成 MynewsApplication が参照
 2025-06-07 01:14:47,103 [Worker-11: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.1/xmlunit-core-2.10.1-sources.jar
 2025-06-07 01:14:47,411 [Worker-11: ソースおよび Javadoc のダウンロード] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/xmlunit/xmlunit-core/2.10.1/xmlunit-core-2.10.1-sources.jar
 2025-06-07 01:14:47,416 [Worker-11: ソースおよび Javadoc のダウンロード] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.xmlunit:xmlunit-core:2.10.1
+2025-06-07 01:28:48,271 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-07 01:28:48,273 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-06-07 01:28:48,277 [Worker-2: ビルド] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JJ_sutdy\gitTest\src\test\resources
