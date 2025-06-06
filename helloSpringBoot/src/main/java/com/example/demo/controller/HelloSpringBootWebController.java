@@ -8,15 +8,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HelloSpringBootWebController {
-
-    @RequestMapping(value="/", method=RequestMethod.GET)
-    public String index() {
-        return "index";
-    }
-
-    @RequestMapping(value="/result", method=RequestMethod.POST)
-    public String send(@RequestParam("inputvalue")String inputvalue, Model model) {
-        model.addAttribute("message", inputvalue);
-        return "result";
-    }
+	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String index() {
+		// ds
+		return "index";
+	}
+	
+	@RequestMapping(value = "/result", method = RequestMethod.POST)
+	public String send(@RequestParam("inputvalue") String inputvalue, Model model) {
+		model.addAttribute("message", inputvalue);
+		return "result";
+	}
 }

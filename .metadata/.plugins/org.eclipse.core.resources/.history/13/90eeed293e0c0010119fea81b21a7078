@@ -1,6 +1,0 @@
-package om.example.demo.controller;
-
-@Controller
-public class HelloSpringBootWebController {
-
-}
