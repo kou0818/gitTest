@@ -11,8 +11,8 @@ public class HelloSpringBootWebController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index() {
-		// ds
 		return "index";
+		//ds
 	}
 	
 	@RequestMapping(value = "/result", method = RequestMethod.POST)
