@@ -15,7 +15,7 @@ public class UserForm {
 	
 	// 必須入力、20文字以下であること
 	@NotBlank(message = "名前を入力してください。", groups = Group1.class)
-	@Size(min = 1, max = 20, message = "名前を20文字以内で入力してください。", groups = Group2.class)
+	@Size(min = 1, max = 20, message = "名前を20文字以内で入力してください。", groups = Group1.class)
 	private String name;
 	
 	// Email形式であること
@@ -24,12 +24,12 @@ public class UserForm {
 	
 	// 必須入力、入力値が0～100であること
 	@NotNull(message = "年齢を入力してください。", groups = Group1.class)
-	@Min(value = 0, message = "年齢は0以上を入力してください。", groups = Group2.class)
-	@Max(value = 100, message = "年齢は100以下を入力してください。", groups = Group2.class)
+	@Min(value = 0, message = "年齢は0以上を入力してください。", groups = Group1.class)
+	@Max(value = 100, message = "年齢は100以下を入力してください。", groups = Group1.class)
 	private Integer age;
 	
 	//備考欄、入力数が20文字以下であること
-	@Size(max = 20, message = "備考は20文字以内で入力してください。", groups = Group2.class)
+	@Size(max = 20, message = "備考は20文字以内で入力してください。", groups = Group1.class)
 	private String note;
 	
 	public interface Group1 {
